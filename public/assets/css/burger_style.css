@@ -4,7 +4,7 @@
 
 body {
   height: 100%;
-  background-color: #dbbe85;
+  background-color: #85830d;
   margin-bottom: 50px;
 }
 
@@ -24,18 +24,18 @@ table {
   table-layout: fixed;
   min-width: 50%;
   margin: 10px auto;
-  background-color: #89cf81;
+  background-color: #0C6667;
   border-radius: 5px;
 }
 
 .btn {
-  background-color: whitesmoke;
+  background-color: #0C6667;
   width: 100%;
-
+  font-weight: bolder;
 }
 
 .btn:hover {
-  background-color: lightgrey;
+  background-color: #4c9192;
 }
 
 td,
