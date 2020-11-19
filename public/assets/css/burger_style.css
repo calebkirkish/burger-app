@@ -1,20 +1,80 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
+* {
+  text-align: center;
+}
+
+body {
+  height: 100%;
+  background-color: #dbbe85;
+  margin-bottom: 50px;
+}
+
+#logo-name {
+  position: relative;
+  color: white;
+  background-color: rgba(148, 11, 11, 0.75);
+  z-index: 2;
+}
+
+svg {
+  margin: 20 auto;
+  max-height: 200px;
+}
+
+table {
+  table-layout: fixed;
+  min-width: 50%;
+  margin: 10px auto;
+  background-color: #89cf81;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: whitesmoke;
+  width: 100%;
+
+}
+
+.btn:hover {
+  background-color: lightgrey;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+.subhead {
+  padding: 20px;
+}
+textarea {
+  display: block;
+  margin: 10px auto;
+  outline: none;
+  resize: none;
+  overflow: auto;
+}
+
+.new-burger {
+  margin: 10px auto;
+  width: 70%;
+}
+
+.new-burger > button {
+  width: 336px;
+}
+
+.remove {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  table {
+    width: 100%;
+    border-radius: 0;
   }
-  
-  .label {
-    font-weight: bold;
+  .new-burger {
+    width: 100%;
+    margin: 0 auto;
   }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+
+}

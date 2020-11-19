@@ -3,4 +3,7 @@ INSERT INTO burgers
 VALUES
     ('Impossible Burger', 0),
     ('Burger Ferguson', 1),
-    ('Beefcake Burger', 0);
+    ('Beefcake Burger', 0),
+    ('Big Mac', 1),
+    ('Whopper', 1);
+    
