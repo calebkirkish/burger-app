@@ -11,6 +11,7 @@
   ## Demo
     ![Main Overview](demo/main-layout.png)
     ![Video Demo](demo/bVnuiTlGUA.gif)
+    ![Check out the site being hosted here!](https://calm-dawn-79357.herokuapp.com/)
   ## Installation
   npm install, setup DB and install schema and add some data to check the output.
 
